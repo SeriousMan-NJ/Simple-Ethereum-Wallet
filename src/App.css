@@ -1,22 +1,108 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.Accounts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Account {
+  display: flex;
+  border: 1px solid white;
+  color: #444;
+}
+
+.Address {
+  width: 400px;
+  padding: 10px;
+  border-right: 1px solid white;
+  background-color: beige;
+}
+
+.Balance {
+  width: 80px;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+
+.Total {
+  width: 400px;
+  padding: 10px;
+  border-right: 1px solid white;
+  background-color: cyan;
+}
+
+.Total-Balance {
+  width: 80px;
+  padding: 10px;
+  background-color: cyan;
+}
+
+.Sending {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Item {
+  display: flex;
+  align-items: center;
+  width: 521px;
+  height: 60px;
+  border: 1px solid white;
+}
+.Label {
+  padding: 10px;
+}
+.Item:nth-child(even) {
+  background-color: #41485a;
+}
+.Password-Form {
+  margin-right: 10px;
+}
+
+.Connection-Status-Wrong {
+  color: red;
+  font-size: calc(10px + 1.5vmin);
+  height: 40px;
+}
+.Connection-Status-Right {
+  color: greenyellow;
+  font-size: calc(10px + 1.5vmin);
+  height: 40px;
+}
+.Transactions {
+  padding: 10px 0 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Transactions p {
+  font-size: calc(10px + 1.5vmin);
+}
+.Transaction {
+  display: flex;
+  align-items: center;
+  width: 750px;
+  height: 40px;
+  border: 1px solid white;
+}
+.Tx-Id {
+  width: 600px;
+}
+.Transaction button {
+  margin-left: 10px;
 }
